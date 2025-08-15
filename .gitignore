@@ -1,0 +1,90 @@
+# ========================
+# Python / Django
+# ========================
+
+.env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.log
+*.pot
+*.py,cover
+*.mo
+*.db
+*.sqlite3
+*.sqlite
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.cover
+.coverage
+coverage.xml
+htmlcov/
+
+# Archivos de configuración local de Django
+local_settings.py
+settings_local.py
+db.sqlite3
+*.secret
+*.key
+
+# ========================
+# Docker
+# ========================
+# Archivos y carpetas de volúmenes locales
+volumes/
+docker-data/
+*.pid
+
+# Archivos generados por contenedores
+*.pid
+*.seed
+*.bak
+
+# ========================
+# PostgreSQL
+# ========================
+# Datos persistentes de Postgres
+postgres_data/
+pgdata/
+
+# ========================
+# pgAdmin
+# ========================
+pgadmin_data/
+
+# ========================
+# Archivos del sistema / IDEs
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.nfs*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# JetBrains / PyCharm
+.idea/
+
+# VS Code
+.vscode/
+.history/
+
+# ========================
+# Otros
+# ========================
+*.tmp
+*.temp
